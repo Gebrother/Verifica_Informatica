@@ -15,7 +15,23 @@
             border: 10px;
             padding: 20px;
 
-        }      
+        }
+        
+        .th{
+          
+            background-color: red;
+            color: yellow;
+
+            border-color: black;    
+            border-style: solid;
+        }
+        .td{
+            background-color: aliceblue;
+            color: blue;
+
+            border-color: black;    
+            border-style: solid;
+        }
     </style>
 </head>
 <body>
@@ -27,29 +43,30 @@
     </nav>
 
     <table class = "table">
+        <thead class = "th">
+            <tr>
+                <th class = "th"> Macchina</th>
+                <th class="th"> Motore </th>
+                <th class="th"> Prezzo</th>
+            </tr>
+        </thead>
+        
         <tr>
-            
-            <td>Auto </td>
-            <td>Motore </td>
-            <td>Prezzo </td>
-            
-        </tr>
-        <tr>
-            <td>Fiat500 </td>
-            <td>Benzina </td>
-            <td>15.000 </td>
+            <td class = "td">Fiat500 </td>
+            <td class = "td">Benzina </td>
+            <td class = "td">15.000 </td>
 
         </tr>
         <tr>
-            <td>Fiat500L </td>
-            <td>Benzina </td>
-            <td>20.000 </td>
+            <td class = "td">Fiat500L </td>
+            <td class = "td">Benzina </td>
+            <td class = "td">20.000 </td>
 
         </tr>
         <tr>
-            <td>Fiat panda </td>
-            <td>Benzina </td>
-            <td>5.000 </td>
+            <td class = "td">Fiat panda </td>
+            <td class = "td">Benzina </td>
+            <td class = "td">5.000 </td>
 
         </tr>
     </table>
